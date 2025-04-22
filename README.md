@@ -18,16 +18,6 @@ FootyForecast is an intelligent football match predictor built using machine lea
 
 ---
 
-## 📂 Project Structure  
-
-football-ml-predictor/ ├── data/ │ └── raw_data.csv ├── model/ │ └── final_model.pkl ├── notebooks/ │ └── model_training.ipynb ├── ui/ (coming soon) ├── utils/ │ └── preprocessing.py ├── requirements.txt └── README.md
-
-yaml
-Copy
-Edit
-
----
-
 ## 🔍 Model Details  
 
 - Algorithm: Random Forest Classifier  
@@ -64,6 +54,10 @@ example_input = {
     'home_team': 1.9,
     'away_team': 3.2
 }
+```
+
+---
+
 🛠 Requirements
 Python 3.7+
 
@@ -77,26 +71,30 @@ matplotlib
 
 seaborn
 
+---
+
 Install dependencies:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
+---
+
 📈 Future Enhancements
+
 🔌 Live data scraping from football APIs
 
 ⚡ xG and advanced stat modeling
 
 🧠 Deep Learning upgrade
 
-🎯 Streamlit/Flask UI integration
-
 🧩 Match visualization dashboards
 
 📲 Telegram/WhatsApp bot deployment
 
+---
+
 🤝 Contributing
+
 Contributions, feature suggestions, and pull requests are welcome!
 To contribute:
 
